@@ -9,7 +9,7 @@
   >
     <button
       v-for="(_, index) in Array(rowCount * rowCount)"
-      @click="onSelectBox(index)"
+      @dblclick="onSelectBox(index)"
       :class="[
         'box',
         {
@@ -144,11 +144,6 @@ const isConcurrentBox = (index: number) => {
 </script>
 
 <style lang="scss" scoped>
-.container {
-  height: 90vh;
-  width: 95vw;
-}
-
 .box {
   display: block;
   border: none;
@@ -170,8 +165,6 @@ const isConcurrentBox = (index: number) => {
 .concurrent-box-color {
   background-color: aquamarine;
 }
-<<<<<<< HEAD
-=======
 
 .container {
   height: 85vh;
@@ -201,5 +194,4 @@ const isConcurrentBox = (index: number) => {
     height: 40vh;
   }
 }
->>>>>>> 290fe2f (refactor: remove last space)
 </style>
