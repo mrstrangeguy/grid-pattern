@@ -170,4 +170,36 @@ const isConcurrentBox = (index: number) => {
 .concurrent-box-color {
   background-color: aquamarine;
 }
+<<<<<<< HEAD
+=======
+
+.container {
+  height: 85vh;
+  aspect-ratio: 1/1;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .container {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    height: 40vh;
+  }
+}
+>>>>>>> 290fe2f (refactor: remove last space)
 </style>
